@@ -1,0 +1,13 @@
+Ý tưởng bài toán:
+- Bài toán cơ sở: 
+    + chuyển 1 đĩa từ cột nguồn đến cột đích: chuyển trực tiếp
+    + Chuyển 2 đĩa từ cột nguồn đến cột đích: 
+        -> chuyển 1(2 - 1) đĩa trên cùng vào cột trung gian 
+        -> chuyển đĩa dưới cùng vào cột đích 
+        -> chuyển 1 (2 - 1) đĩa ở cột trung gian vào cột đích
+- Bài toán tổng quát:
+    + chuyển n đĩa từ cột nguồn đến cột đích:
+        -> chuyển (n - 1) đĩa trên cùng vào cột trung gian 
+        -> chuyển đĩa dưới cùng vào cột đích 
+        -> chuyển (n - 1) đĩa ở cột trung gian vào cột đích
+        (để chuyển n - 1 đĩa thì dùng đệ quy)
