@@ -1,4 +1,0 @@
-Đề bài: tìm ước chung lớn nhất của 2 số
-Ý tưởng: 
-- Gọi X là GCD của a và b thì t có a = m * x và b = n * x (m,n có 2 ước chung duy nhất là +-1)
-- Để tìm ra x ta chỉ cần giảm m hoặc n xuống còn 1 bằng phép toán a - b = (m - n) * x
